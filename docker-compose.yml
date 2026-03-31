@@ -27,7 +27,7 @@ services:
   # Backend (FastAPI)
 backend:
   build:
-    context: .        
+    context: .
     dockerfile: Dockerfile
     container_name: dms-backend
     restart: unless-stopped
@@ -52,10 +52,10 @@ backend:
       start_period: 40s
 
   # Frontend (React)
-  frontend:
-    build:
-      context: .
-      dockerfile: Dockerfile
+ frontend:
+  build:
+    context: .
+    dockerfile: Dockerfile
       args:
         - REACT_APP_BACKEND_URL=${REACT_APP_BACKEND_URL:-http://localhost:8001}
     container_name: dms-frontend
