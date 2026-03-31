@@ -26,9 +26,9 @@ services:
 
   # Backend (FastAPI)
   backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
+   build:
+  context: .
+  dockerfile: Dockerfile
     container_name: dms-backend
     restart: unless-stopped
     environment:
