@@ -1,0 +1,36 @@
+{
+  "version": "4.2.0",
+  "customer_code": "DMS",
+  "customer_name": "DMS Insight SaaS",
+  "release_date": "2026-03-31",
+  "release_type": "stable",
+  "modules": [
+    "asset_performance",
+    "online_monitoring",
+    "production_testing",
+    "data_connectors"
+  ],
+  "features_in_release": [
+    "Site PD Overview - Asset-Level Deep Data Extraction (Phase 5)",
+    "Data Connectors - Sync Engine (Phase 3)",
+    "Data Connectors - Background Scheduler (Phase 4)",
+    "Data Connectors - Data Viewer UI",
+    "Data Ingestion APIs (v1)",
+    "Missing Log Notifications Dashboard",
+    "Connector Alerts System",
+    "Data Connectors Framework (Phase 1)",
+    "Database Auto-Initialization for Fresh Deployments",
+    "Daily Operational Logs with OCR Camera Capture",
+    "Branding Logo Base64 Persistence",
+    "AI Demo Company Generator",
+    "Company Factory Reset",
+    "Feature Flags System",
+    "Dynamic Region Risk Heatmap",
+    "Complete Company Export/Import",
+    "IPEC PD Monitoring Dashboard - Region-wise bar charts with asset drill-down",
+    "IPEC Analytics - Real data criticality distribution, regional risk, asset type breakdown, top-risk tables",
+    "IPEC Map View - Leaflet map with IPEC substation markers, lat/lng from SQL report sync",
+    "IPEC Criticality Trend Analysis - Degrading/Improving widgets with sparklines, configurable threshold, substation & asset level history",
+    "IPEC Increase Flags - Synced from PD Activity report, Dashboard alert banner, Analytics two-panel widget (Two Week / Six Month)"
+  ]
+}
