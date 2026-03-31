@@ -25,10 +25,10 @@ services:
       start_period: 40s
 
   # Backend (FastAPI)
-  backend:
-   build:
-  context: .
-  dockerfile: Dockerfile
+backend:
+  build:
+    context: .        
+    dockerfile: Dockerfile
     container_name: dms-backend
     restart: unless-stopped
     environment:
