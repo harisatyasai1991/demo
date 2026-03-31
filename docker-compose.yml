@@ -54,7 +54,7 @@ backend:
   # Frontend (React)
   frontend:
     build:
-      context: ./frontend
+      context: .
       dockerfile: Dockerfile
       args:
         - REACT_APP_BACKEND_URL=${REACT_APP_BACKEND_URL:-http://localhost:8001}
